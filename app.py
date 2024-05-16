@@ -13,9 +13,9 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 
-load_dotenv() ##loading the environment variable
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+#load_dotenv() ##loading the environment variable
+#os.getenv("GOOGLE_API_KEY")
+#genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def initialize():
   # configure api key and initialise model
